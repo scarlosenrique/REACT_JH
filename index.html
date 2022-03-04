@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Cargat React -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    
+    <title>Curso de React</title>
+</head>
+<body>
+
+    <div id="root"> </div>
+
+    <script type="text/babel">
+
+        const nombre = 'Carlitos';
+        const h1Tag = <h2>Hola Mundo, soy {nombre} el experto en java script y React</h2>;
+        const divRoot = document.querySelector('#root');
+
+        ReactDOM.render(h1Tag, divRoot);
+
+
+    </script>
+    
+</body>
+</html>
